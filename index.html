@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form">
+          <input required type="text" placeholder="Name" name="Name">
+          <input required type="text" placeholder="CompanyName" name="CompanyName">
+          <input required type="number" placeholder="Salary" name="Salary">
+          <select required name="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+          </select>
+          <select required name="Role">
+            <option value="QC">QC</option>
+            <option value="QA">QC</option>
+            <option value="R&D">R&D</option>
+          </select>
+          <input required type="email" placeholder="Email" name="Email">
+          <button>Submit</button>
+        </form>
+        <table class="table">
+            <thead>
+                <th>Name</th>
+                <th>CompanyName</th>
+                <th>Salary</th>
+                <th>Gender</th>
+                <th>Role</th>
+                <th>Email</th>
+                <th>Options</th>
+            </thead>
+            <tbody class="tbody">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="./index.js"></script>
+    <script src="./empolyee-edit.js"></script>
+</body>
+</html>
